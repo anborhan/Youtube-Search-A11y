@@ -19,7 +19,7 @@ function renderResult(result) {
     <div>
       <h2>
       <a href="https://www.youtube.com/watch?v=${result.id.videoId}"  target="_blank">
-        <img src="http://img.youtube.com/vi/${result.id.videoId}/default.jpg">
+        <img alt="Thumbnail link for ${result.snippet.title}" src="http://img.youtube.com/vi/${result.id.videoId}/default.jpg">
       </a>
       <a class="youtube-result-name" href="https://www.youtube.com/watch?v=${result.id.videoId}" target="_blank">${result.snippet.title}</a> by <a class="youtube-user-name" href="https://www.youtube.com/channel/${result.snippet.channelId}" target="_blank">${result.snippet.channelTitle}</a>
       </h2>
