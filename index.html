@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <section role="region" class="search bar">
+    <main role="main">
+      <h1>Youtube Search</h1>
+      <form action="#" class="youtube-search">
+        <fieldset>
+          <legend class="legend">Search for Youtube Videos by Name</legend>
+          <input type="text" class="youtube-query">
+          <label for="youtube-query"></label>
+          <button type="submit">Search</button>
+        </fieldset>
+      </form>
+    </section>
+    <section role="region" class="results">
+      <h2>Results</h2>
+      <div class="youtube-search-results">
+            
+      </div>
+    </section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="index.js"></script>
+    <script src="http://apis.google.com/js/client.js?onload=init"></script>
+  </body>
+</html>
